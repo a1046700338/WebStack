@@ -25,3 +25,27 @@
 .libiao{
     padding-left: 20px;
 }
+.jietu{
+    width: 800px;
+    height: 600px;
+}
+
+/*屏幕适配*/
+@media only screen and (max-width : 1012px){
+    .jietu {
+        width: 400px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width : 420px){
+    .jietu {
+        width: 200px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width : 290px){
+    .jietu {
+        width: 100px;
+        height: 50px;
+    }
+}

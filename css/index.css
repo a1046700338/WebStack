@@ -35,7 +35,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 0px 0px 0px 5px rgba(64, 58, 245, 0.6);
 }
 
 .nav p {
@@ -184,4 +183,11 @@ a:hover {
     height: 90px;
     background: rgba(255, 255, 255, 1);
 
+}
+
+/*屏幕适配*/
+@media only screen and (max-width : 390px){
+    .nav{
+        height: auto;
+    }
 }
